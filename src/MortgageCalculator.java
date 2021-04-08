@@ -10,6 +10,6 @@ public class MortgageCalculator {
     }
 
     public Double calcMortgage(){
-        return (principal)*(rate)*(duration)/100;
+        return (principal)*(rate)*(duration)/10000;
     }
 }
